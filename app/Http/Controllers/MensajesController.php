@@ -14,4 +14,9 @@ class MensajesController extends Controller
                 view('templates/footer');
 
     }
+
+    // El usuario envía un mensaje por AJAX:
+    public function enviarMensaje() {
+        
+    }
 }
