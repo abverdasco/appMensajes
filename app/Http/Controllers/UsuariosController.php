@@ -24,7 +24,7 @@ class UsuariosController extends Controller
         // Creamos un objeto de tipo sesión:
         $session = Session();
         $session->put('nombre', $nombre);
-
+        
         return  view('templates/header').
                 view('listadoMensajes').
                 view('templates/footer');

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UsuariosController;
+use App\Http\Controllers\MensajesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,10 @@ use App\Http\Controllers\UsuariosController;
 |
 */
 
+// USUARIOS:
 Route::get('/', [UsuariosController::class, 'acceso']);
 Route::post('/login', [UsuariosController::class, 'registrarSesion']);
+
+// MENSAJES:
+Route::get('/listado', [MensajesController::class, 'mostrarMensajes']);
+
