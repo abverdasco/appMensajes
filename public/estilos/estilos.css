@@ -1,0 +1,125 @@
+body {
+    background: url('https://images.unsplash.com/photo-1451186859696-371d9477be93?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925');
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#cuerpo-acceso {
+    background-color: rgba(255, 255, 255, 0.493);
+    width: 40%;
+    height: 30vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30vh;
+    margin-bottom: auto;
+    padding-top: 1vh;
+    font-size: x-large;
+    font-family: "Madimi One", sans-serif;
+}
+
+#cuerpo-chat {
+    background-color: rgba(255, 255, 255, 0.493);
+    width: 80%;
+    height: 53.5rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#contenedorMensajes {
+    width: 80%;
+    height: 80%;
+    border: 1px solid #ccc;
+    overflow: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    scrollbar-width: none;
+}
+
+.boton {
+    font-size: large;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    color: darkblue;
+    border-color: darkblue;
+}
+
+.boton:hover {
+    background-color: rgb(167, 255, 255);
+    cursor: pointer;
+}
+
+.titulo {
+    color: darkblue;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.mensaje {
+    margin: 10px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    display:table;
+    font-size: large;
+}
+
+.propio {
+    margin-left: auto;
+}
+
+.recurso {
+    max-width: 25vw;
+    max-height: 40vh;
+    min-width: 15vw;
+    min-height: 30vh;
+}
+
+/* .img {
+    width: 20rem;
+    height: 15rem;
+}
+
+.vid {
+    width: 30rem;
+    height: 20rem;
+}
+
+.gif {
+    width: 15rem;
+    height: 15rem;
+} */
+
+.hora {
+    font-size: xx-small;
+}
+
+b {
+    font-size: x-large;
+}
+
+h1 {
+    font-family: "Madimi One", sans-serif;
+}
+
+.barra {
+    width: 50%; 
+    height: 1.5rem;
+}

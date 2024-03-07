@@ -17,9 +17,12 @@ use App\Http\Controllers\MensajesController;
 
 // USUARIOS:
 Route::get('/', [UsuariosController::class, 'acceso']);
+Route::get('/cerrarSesion', [UsuariosController::class, 'cerrarSesion']);
 Route::post('/login', [UsuariosController::class, 'registrarSesion']);
+Route::get('/login', [UsuariosController::class, 'registrarSesion']);
 
 // MENSAJES:
 Route::get('/listado', [MensajesController::class, 'mostrarMensajes']);
 Route::get('/enviarMensaje', [MensajesController::class, 'enviarMensaje']);
+Route::get('/obtenerMensajes', [MensajesController::class, 'obtenerMensajes']);
 
